@@ -14,7 +14,6 @@ SMODS.Atlas{
     path = "Enhancers-Colorblind.png",
     px = 71,
     py = 95,
-    --raw_key = true,
     inject = function(self)
         SMODS.Atlas.inject(self)
         G.shared_seals = {
